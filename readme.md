@@ -1,7 +1,8 @@
-# Ponderada Prog 1 parte 1
+# Ponderada Prog 1, Parte 1
 
-### Código que faz a luz do arduíno piscar e imagens/vídeos do mesmo na pasta "Assets".
+### Código que faz a luz do Arduino piscar e imagens/vídeos do mesmo na pasta `Assets`.
 
+```cpp
 void setup() {
   // inicializa o pino digital LED_BUILTIN como uma saída.
   pinMode(LED_BUILTIN, OUTPUT);
@@ -14,12 +15,14 @@ void loop() {
   digitalWrite(LED_BUILTIN, LOW);   // apaga o LED (colocando o nível de voltagem em LOW)
   delay(3000);                      // espera 3 segundos
 }
+```
 
 
-# Ponderada Prog 1 parte 1
+# Ponderada Prog 1, parte 2
 
 ### Após fazer a primeira parte ligando o led integrado do arduíno fiz a segunda parte com LEDs adicionais e uma fiação mais complexa, envolvendo os cabos "jumpcable", um vermelho e um azul acompanhado de resistores, esse foi o código para ambos LEDs acenderem de forma intercalada simulando uma sirene.
 
+```cpp
 void setup() {
   pinMode(2, OUTPUT); // LED vermelho
   pinMode(3, OUTPUT); // LED azul
@@ -46,4 +49,5 @@ void loop() {
   digitalWrite(3, LOW);
   delay(50);
 }
+```
 
