@@ -4,6 +4,8 @@
 
 Link com drive contendo fotos e vídeos dos projetos físicos e no simulador: [Acesse aqui](https://drive.google.com/drive/folders/1rTKCDDVNUneCG47Ih89xCAuCTLv79lyE?usp=drive_link)
 
+Link do Tinkercad: [Acesse aqui](https://www.tinkercad.com/things/la1o7PC7tvT/editel?sharecode=73yli8EbNfbxuYwedVzKHEKiIFxTCXtjXYAIdy9rPdk)
+
 ## Parte 1
 
 ### Código que faz o LED do Arduino piscar.
